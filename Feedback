@@ -1,0 +1,47 @@
+Brave Souls Feedback:
+
+ 
+
+1. Awesome start! It's great that you already have quite a few models up.
+
+ 
+
+2. Are you using all of the data for each model? Have you tried using different data amounts? How much data do you have in total?
+
+ 
+
+3. When you're running experiments to tune the hyperparameters, have you tried using different word ngrams? Typically changing that paramter from 2 to 3 can have a big impact, which one is better? Also early stopping is useful.
+
+ 
+
+3. So, you can use Word2Vec for generating word embeddings. But you can also use Object2Vec, which is actually a supervised algorithm that can handle sentence similarity.
+
+Object2Vec for Sentence Similarity:
+
+- https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/object2vec_sentence_similarity/object2vec_sentence_similarity.ipynb
+
+ 
+
+If you can, try out Object2Vec for either supervised or unsupervised mode. You can use that to get your embeddings, then feed it into a KNN model, and then cluster the sentences.
+
+ 
+
+THEN, if you're really ambitious, you can try to extract topics from the KNN. Write out a new topic, get the embedding for it, send it as a query to KNN, and get sentences back that are similar. (Stretch goal)
+
+ 
+
+ 
+
+4. Also, TSNE plots are always really impressive for NLP.
+
+ 
+
+- https://github.com/awslabs/amazon-sagemaker-examples/blob/8211a60e7d6675032fcbaf0e65b672123c338e32/introduction_to_amazon_algorithms/blazingtext_word2vec_text8/blazingtext_word2vec_text8.ipynb
+
+ 
+
+Thanks and good work!!
+
+ 
+
+    Emily 
