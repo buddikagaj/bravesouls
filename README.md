@@ -4,8 +4,8 @@ Use Natural Language Processing (NLP) to predict Positive and Negative sentiment
 
 * Simple Negative/Positive sentiment prediction (Supervised Classification)
 * Generate Word Embeddings (Unsupervised)
-* Linear Learner for 1:1 model interpretation, using word embeddings as features
-* Clustering negative reviews to extract topics and key words
+* Object2Vec for Sentence Similarity
+
 
 ### Data Analysis
 ___
@@ -70,9 +70,8 @@ Process is very similar to 1st model, yet we do not generate labels or test/vali
 8. Deploy model to an __End Point__
 9. Test it out. Analysis includes plotting the word vector.
 
-#### Linear Learner for 1:1 model interpretation, using word embeddings as features
+#### Object2Vec for Sentence Similarity
 
-Extending the Word2Vec excercise, we are using the word vectors as the features to create a supervised model using __Linear Learner__.
 
 ### References
 
@@ -84,6 +83,9 @@ https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to
 __Wor2Vec:__
 
 https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/blazingtext_word2vec_text8/blazingtext_word2vec_text8.ipynb
+
+__Object2Vec__
+https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/object2vec_sentence_similarity/object2vec_sentence_similarity.ipynb
 
 __LInear Learner:__
 
