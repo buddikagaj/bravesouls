@@ -55,5 +55,11 @@ Perform some manual tests with arbitary comments.
 
 ### References
 
-Wor2Vec:
+__Text Classification:__
+
+https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/blazingtext_text_classification_dbpedia/blazingtext_text_classification_dbpedia.ipynb
+
+
+__Wor2Vec:__
+
 https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/blazingtext_word2vec_text8/blazingtext_word2vec_text8.ipynb
