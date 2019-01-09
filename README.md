@@ -87,6 +87,8 @@ https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to
 __Object2Vec__
 https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/object2vec_sentence_similarity/object2vec_sentence_similarity.ipynb
 
+https://aws.amazon.com/blogs/machine-learning/introduction-to-amazon-sagemaker-object2vec/
+
 __LInear Learner:__
 
 https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html
