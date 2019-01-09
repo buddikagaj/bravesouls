@@ -63,3 +63,7 @@ https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to
 __Wor2Vec:__
 
 https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/blazingtext_word2vec_text8/blazingtext_word2vec_text8.ipynb
+
+__LInear Learner:__
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html
