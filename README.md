@@ -51,6 +51,23 @@ Perform some manual tests with arbitary comments.
 
 ####  Generate Word Embeddings (Unsupervised) 
 
+Word embeddings are used in NLP to represent words in a numerical context and establish distance relationships. While there are pre-created word embeddings, we can create our own word embedings, with respect to the context. In this excercise we create new Word Embeddings for the Product reviews (title+comments) and generate a vectors for the words.
+
+_NOTE: This is unsuperviced learning._
+
+Process is very similar to 1st model, yet we do not generate labels or test/validation data set as it's unsupervised.
+##### Steps
+
+1. Import necessary libraries
+2. Environment Setup
+3. Data Pulling and pre-prep
+4. Implement __Transformation__ and __Preprocess__ functions. _Note: We drop label column and use only title and comments. Also no test data set_
+5. Obtain a training __SageMaker__ container for __blazingtext__
+6. Set __Hyper Parameters__ _Note: use __mode="batch_skipgram"__ in hyper parameters. We also use 100 as the vector demension.
+7. __fit__ : Train to create model (If accuracy meet desired perform next steps)
+8. Deploy model to an __End Point__
+9. Test it out. Analysis includes plotting the word vector.
+
 
 
 ### References
