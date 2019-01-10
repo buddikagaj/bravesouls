@@ -72,6 +72,13 @@ Process is very similar to 1st model, yet we do not generate labels or test/vali
 
 #### Object2Vec for Sentence Similarity
 
+Future Work
+
+### Going Live!!!
+
+![Production Architecture](https://raw.githubusercontent.com/buddikagaj/bravesouls/master/BraveSoulsLiveReview-1.png)
+
+http://aws-ml-chicago-team-bravesouls.s3-website-us-east-1.amazonaws.com/index.html
 
 ### References
 
